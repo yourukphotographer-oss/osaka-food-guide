@@ -153,10 +153,15 @@ export default function Home() {
                 </div>
               </div>
 
-              {/* Action Button (Mock) */}
-              <button className="mt-4 w-full py-2.5 rounded-xl border border-stone-200 text-stone-600 font-bold text-sm flex items-center justify-center gap-2 hover:bg-stone-50 active:scale-95 transition-all">
+              {/* Action Button */}
+              <a 
+                href={`https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(r.name + " Osaka")}`}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="mt-4 w-full py-2.5 rounded-xl border border-stone-200 text-stone-600 font-bold text-sm flex items-center justify-center gap-2 hover:bg-stone-50 active:scale-95 transition-all"
+              >
                 <MapPin size={16} /> 於 Google Maps 打開
-              </button>
+              </a>
             </motion.div>
           ))}
         </AnimatePresence>
