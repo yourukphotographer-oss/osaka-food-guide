@@ -42,6 +42,11 @@ const RESTAURANTS: Restaurant[] = [
   { name: "Harukoma (Main Store)", rating: 4.2, reviews: 3569, price: "¥2-4k", category: "Sushi", desc: "春駒本店，天神橋筋商店街名店，平靚正。", tags: ["Classic", "Cheap"] },
   { name: "Sushi Center Ura-Tennoji", rating: 4.2, reviews: 965, price: "¥2-4k", category: "Sushi", desc: "壽司中心，裏天王寺人氣店。", tags: ["Local"] },
   { name: "Sashisu", rating: 4.1, reviews: 1190, price: "¥2-4k", category: "Sushi", desc: "另一間 Sashisu 分店。", tags: ["Sushi"] },
+  { name: "Harukoma (Branch Shop)", rating: 4.1, reviews: 2077, price: "¥2-4k", category: "Sushi", desc: "春駒分店，同樣好食，排隊可能短啲。", tags: ["Sushi", "Queue"] },
+  { name: "Ganzo Butchikiri Sushi Uoshin Minami", rating: 4.2, reviews: 1954, price: "¥2-3k", category: "Sushi", desc: "元祖魚心南店，大件壽司。", tags: ["Big Sushi"] },
+  { name: "Kaizoku", rating: 4.2, reviews: 540, price: "Moderate", category: "Sushi", desc: "海賊，主打海鮮。", tags: ["Seafood"] },
+  { name: "Sushi-ya Kotobuki Tsukasa", rating: 4.2, reviews: 314, price: "¥2-3k", category: "Sushi", desc: "壽司屋，天滿區。", tags: ["Sushi", "Tenma"] },
+  { name: "Shuzen YAYOI", rating: 4.6, reviews: 554, price: "Closed", category: "Sushi", desc: "注意：Google 顯示已永久結業。", tags: ["Closed"] },
 
   // 拉麵 (Ramen)
   { name: "Tori Soba ZAGIN Main Shop", rating: 4.5, reviews: 2426, price: "¥1-2k", category: "Ramen", desc: "座銀雞白湯拉麵，湯頭濃郁，擺盤好靚。", tags: ["Chicken Broth", "Instagrammable"] },
@@ -57,6 +62,15 @@ const RESTAURANTS: Restaurant[] = [
   { name: "Hanadako", rating: 4.3, reviews: 4150, price: "Cheap", category: "Others", desc: "梅田章魚燒名店，蔥花多到瀉。", tags: ["Takoyaki", "Street Food"] },
   { name: "Ikkaku Nishiumeda", rating: 4.3, reviews: 1156, price: "¥2-3k", category: "Others", desc: "骨付鳥 (燒雞髀) 專門店。", tags: ["Chicken"] },
   { name: "Kushiage kenshi", rating: 4.7, reviews: 363, price: "¥4-5k", category: "Others", desc: "高級串炸 (Kushiage)。", tags: ["Fried Skewers"] },
+  { name: "Hakata Kushiyaki Battenyokato", rating: 3.9, reviews: 278, price: "¥2-3k", category: "Izakaya", desc: "博多串燒。", tags: ["Yakitori"] },
+  { name: "Isaribi", rating: 3.5, reviews: 1879, price: "¥2-4k", category: "Izakaya", desc: "炉端燒老店，氣氛好。", tags: ["Robatayaki"] },
+  { name: "Takoyaki Juhachiban Dotonbori", rating: 4.1, reviews: 1902, price: "Cheap", category: "Others", desc: "十八番章魚燒，脆皮。", tags: ["Takoyaki"] },
+  { name: "Shinsaibashi Ujien honten", rating: 4.2, reviews: 709, price: "¥1-2k", category: "Others", desc: "心齋橋宇治園，綠茶甜品。", tags: ["Matcha", "Cafe"] },
+  { name: "Shin-jidai Osaka-Tenma", rating: 3.8, reviews: 387, price: "¥1-2k", category: "Izakaya", desc: "新時代，傳說中嘅炸雞皮串。", tags: ["Chicken Skin"] },
+  { name: "TOTTSUAN Tenroku", rating: 4.1, reviews: 412, price: "Cheap", category: "Izakaya", desc: "地道海鮮居酒屋。", tags: ["Seafood Izakaya"] },
+  { name: "Nekomaru", rating: 4.3, reviews: 67, price: "¥4-5k", category: "Others", desc: "大阪燒 (Okonomiyaki)。", tags: ["Okonomiyaki"] },
+  { name: "おぼん食堂 16", rating: 3.9, reviews: 165, price: "¥2-3k", category: "Others", desc: "日式定食，健康之選。", tags: ["Teishoku"] },
+  { name: "炉端と釜めし 五百蔵", rating: 4.3, reviews: 147, price: "¥?", category: "Izakaya", desc: "炉端燒 + 釜飯。", tags: ["Kamameshi"] },
 ];
 
 const CATEGORIES = [
